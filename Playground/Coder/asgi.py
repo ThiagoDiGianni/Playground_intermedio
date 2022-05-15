@@ -1,5 +1,5 @@
 """
-ASGI config for Playground project.
+ASGI config for Coder project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Playground.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Coder.settings')
 
 application = get_asgi_application()
