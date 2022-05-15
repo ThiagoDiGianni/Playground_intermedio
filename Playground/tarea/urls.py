@@ -5,7 +5,7 @@ from person.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('persona',list_person),
-    path('modelos', papa),
+    path('personas/', include("person.urls")),
+        
     
 ]
