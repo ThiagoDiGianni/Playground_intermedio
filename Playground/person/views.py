@@ -15,3 +15,8 @@ def papa(self):
     papa.save()
     texto= f"Nombre: {papa.name} Apellido: {papa.surname} Edad: {papa.age} "
     return HttpResponse(texto)
+
+
+def inicio(request):
+    
+    return render(request, "person/inicio.html")

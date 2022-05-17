@@ -3,8 +3,9 @@ from .views import *
 
 urlpatterns = [
     
-    path('',list_person),
+    path('',inicio),
     path('papa',papa),
+    
 
 
 
